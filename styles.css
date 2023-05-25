@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu-container {
+    color: white;
+    background-color:#5995DA;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .menu {
+    /* border: 1px solid white; (For debugging) */
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Didot;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
