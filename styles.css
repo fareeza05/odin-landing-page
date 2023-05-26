@@ -18,16 +18,75 @@
     width: 1400px;
     display: flex;
     justify-content: space-between;
-    font-family: Didot;
+    font-family: helvetica;
   }
   
   .links {
     display: flex;
     justify-content: flex-end;
+    
   }
   
   a {
     margin-left: 10px;
     margin-right: 10px;
+    text-decoration: none;
+    color:white;
+  }
+  
+  
+  .block1-container {
+    display:flex;
+    justify-content: center;
+    background-image: url("https://i.pinimg.com/originals/24/53/59/245359a37cb05aad0e263eb40368cc01.gif");
+    /*background-repeat no-repeat;*/
+    color: white;
+    justify-content: center;
+  }
+  
+  .block1 {
+   /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    /* space-between: 300px; */
+    width: 1400px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 50px;
+    font-family: Helvetica;
+    margin-bottom: 100px;
+    text-shadow: 0 0 10px #fff
+  }
+  
+  .t1 {
+    font-style: bold;
+    font-size: 60px;
+    margin-bottom: 5px;
+    
+  }
+  
+  .image1 {
+    width: 300px;
+    margin-left: 200px;
+    height: auto;
+  }
+  
+  button {
+    background-color: #008CBA;
+    margin-top: 15px;
+    font-family: helvetica;
+    padding: 10px 24px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;
+    
+  }
+  
+  .button:hover {
+    border: #008CBA 2px;
+    background-color: white;
+    color: #008CBA
+    
   }
   
