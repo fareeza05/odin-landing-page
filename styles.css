@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
   
   .menu-container {
     color: white;
-    background-color:#5995DA;
+    background-color:#193366;
     padding: 10px 0;
     display: flex;
     justify-content: center;
@@ -36,12 +37,13 @@
   
   
   .block1-container {
+     
     display:flex;
     justify-content: center;
-    background-image: url("https://i.pinimg.com/originals/24/53/59/245359a37cb05aad0e263eb40368cc01.gif");
-    /*background-repeat no-repeat;*/
     color: white;
-    justify-content: center;
+    background-image: url("https://wallpaperaccess.com/full/3689723.jpg");
+    height: 800px;
+    background-attachment: scroll;
   }
   
   .block1 {
@@ -51,8 +53,8 @@
     /* space-between: 300px; */
     width: 1400px;
     padding-left: 200px;
-    padding-right: 200px;
-    margin-top: 50px;
+    padding-right: 100px;
+    margin-top: 200px;
     font-family: Helvetica;
     margin-bottom: 100px;
     text-shadow: 0 0 10px #fff
@@ -66,7 +68,7 @@
   }
   
   .image1 {
-    width: 300px;
+    width: 500px;
     margin-left: 200px;
     height: auto;
   }
@@ -89,4 +91,48 @@
     color: #008CBA
     
   }
+
+  .block2-container {
+    display:flex;
+    justify-content: center;
+    color: white;
+    justify-content: center;
+    background-color:#193366;
+    background-attachment: scroll;
+  }
+
+  .block2 {
+     border: 1px solid white; 
+    /* space-between: 300px; */
+    width: 1400px;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: Helvetica;
+    margin-bottom: 50px;
+    padding-left:100px;
+    padding-right: 100px;
+  }
+
+.top-text {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.picture-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pg {
+  text-align: center;
+  font-size: 10px;
+  padding-left:100px;
+  padding-right:100px;
   
+}
+
+.pgimg {
+  width: 200px;
+}
